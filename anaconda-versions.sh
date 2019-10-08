@@ -1,3 +1,4 @@
+sudo yum install -y bzip2
 sudo rm -rf /opt/python/ /tmp/anaconda-versions.txt
 
 ANACONDA_VERSIONS=("Anaconda2-2019.07"
