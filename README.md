@@ -8,6 +8,8 @@ version of the Anaconda distrubution.
 
 | Anaconda Version  | Python Version |
 | ----------------- | -------------- |
+| Anaconda2-2019.10 | Python 2.7.16  |
+| Anaconda3-2019.10 | Python 3.7.4   |
 | Anaconda2-2019.07 | Python 2.7.16  |
 | Anaconda3-2019.07 | Python 3.7.3   |
 | Anaconda2-2019.03 | Python 2.7.16  |
@@ -75,6 +77,10 @@ version of the Miniconda distrubution.
 
 | Miniconda Version   | Python Version |
 | ------------------- | -------------- |
+| Miniconda2-4.7.12.1 | Python 2.7.17  |
+| Miniconda3-4.7.12.1 | Python 3.7.4   |
+| Miniconda2-4.7.12   | Python 2.7.16  |
+| Miniconda3-4.7.12   | Python 3.7.4   |
 | Miniconda2-4.7.10   | Python 2.7.16  |
 | Miniconda3-4.7.10   | Python 3.7.3   |
 | Miniconda2-4.6.14   | Python 2.7.16  |

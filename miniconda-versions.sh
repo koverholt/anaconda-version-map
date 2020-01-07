@@ -1,7 +1,11 @@
 sudo yum install -y bzip2
-sudo rm -rf /opt/python/ miniconda-versions.txt
+sudo rm -rf /opt/python/ ./miniconda-versions.txt
 
-MINICONDA_VERSIONS=("Miniconda2-4.7.10"
+MINICONDA_VERSIONS=("Miniconda2-4.7.12.1"
+"Miniconda3-4.7.12.1"
+"Miniconda2-4.7.12"
+"Miniconda3-4.7.12"
+"Miniconda2-4.7.10"
 "Miniconda3-4.7.10"
 "Miniconda2-4.6.14"
 "Miniconda3-4.6.14"
@@ -85,5 +89,5 @@ do
    curl -O https://repo.anaconda.com/miniconda/${MINICONDA_VERSION}-Linux-x86_64.sh
    sudo bash ${MINICONDA_VERSION}-Linux-x86_64.sh -bp /opt/python/${MINICONDA_VERSION}
    PYTHON_VERSION="$((/opt/python/${MINICONDA_VERSION}/bin/python -V) 2>&1)"
-   echo "${MINICONDA_VERSION} uses ${PYTHON_VERSION}" >> miniconda-versions.txt
+   echo "${MINICONDA_VERSION} uses ${PYTHON_VERSION}" >> ./miniconda-versions.txt
 done

@@ -1,7 +1,9 @@
 sudo yum install -y bzip2
-sudo rm -rf /opt/python/ anaconda-versions.txt
+sudo rm -rf /opt/python/ ./anaconda-versions.txt
 
-ANACONDA_VERSIONS=("Anaconda2-2019.07"
+ANACONDA_VERSIONS=("Anaconda2-2019.10"
+"Anaconda3-2019.10"
+"Anaconda2-2019.07"
 "Anaconda3-2019.07"
 "Anaconda2-2019.03"
 "Anaconda3-2019.03"
@@ -68,5 +70,5 @@ do
    curl -O https://repo.anaconda.com/archive/${ANACONDA_VERSION}-Linux-x86_64.sh
    sudo bash ${ANACONDA_VERSION}-Linux-x86_64.sh -bp /opt/python/${ANACONDA_VERSION}
    PYTHON_VERSION="$((/opt/python/${ANACONDA_VERSION}/bin/python -V) 2>&1)"
-   echo "${ANACONDA_VERSION} uses ${PYTHON_VERSION}" >> anaconda-versions.txt
+   echo "${ANACONDA_VERSION} uses ${PYTHON_VERSION}" >> ./anaconda-versions.txt
 done
