@@ -1,7 +1,12 @@
+#!/usr/bin/env bash
+
 sudo yum install -y bzip2
 sudo rm -rf /opt/python/ ./miniconda-versions.txt
 
-MINICONDA_VERSIONS=("Miniconda2-4.7.12.1"
+MINICONDA_VERSIONS=(
+"Miniconda3-py37_4.8.2"
+"Miniconda3-py38_4.8.2"
+"Miniconda2-4.7.12.1"
 "Miniconda3-4.7.12.1"
 "Miniconda2-4.7.12"
 "Miniconda3-4.7.12"

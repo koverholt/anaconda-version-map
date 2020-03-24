@@ -1,7 +1,12 @@
+#!/usr/bin/env bash
+
 sudo yum install -y bzip2
 sudo rm -rf /opt/python/ ./anaconda-versions.txt
 
-ANACONDA_VERSIONS=("Anaconda2-2019.10"
+ANACONDA_VERSIONS=(
+"Anaconda3-2020.02"
+"Anaconda2-2019.10"
+"Anaconda2-2019.10"
 "Anaconda3-2019.10"
 "Anaconda2-2019.07"
 "Anaconda3-2019.07"
