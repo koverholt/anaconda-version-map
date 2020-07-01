@@ -78,6 +78,9 @@ version of the Miniconda distribution.
 
 | Miniconda Version     | Python Version |
 | --------------------- | -------------- |
+| Miniconda2-py27_4.8.3 | Python 2.7.18  |
+| Miniconda3-py37_4.8.3 | Python 3.7.7   |
+| Miniconda3-py38_4.8.3 | Python 3.8.3   |
 | Miniconda3-py37_4.8.2 | Python 3.7.6   |
 | Miniconda3-py38_4.8.2 | Python 3.8.1   |
 | Miniconda2-4.7.12.1   | Python 2.7.17  |
