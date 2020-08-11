@@ -8,6 +8,7 @@ version of the Anaconda distribution.
 
 | Anaconda Version  | Python Version |
 | ----------------- | -------------- |
+| Anaconda3-2020.07 | Python 3.8.3   |
 | Anaconda3-2020.02 | Python 3.7.6   |
 | Anaconda2-2019.10 | Python 2.7.16  |
 | Anaconda3-2019.10 | Python 3.7.4   |
