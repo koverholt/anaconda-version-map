@@ -8,6 +8,8 @@ version of the Anaconda distribution.
 
 | Anaconda Version  | Python Version |
 | ----------------- | -------------- |
+| Anaconda3-2021.04 | Python 3.8.8   |
+| Anaconda3-2020.11 | Python 3.8.5   |
 | Anaconda3-2020.07 | Python 3.8.3   |
 | Anaconda3-2020.02 | Python 3.7.6   |
 | Anaconda2-2019.10 | Python 2.7.16  |
@@ -79,6 +81,9 @@ version of the Miniconda distribution.
 
 | Miniconda Version     | Python Version |
 | --------------------- | -------------- |
+| Miniconda3-py37_4.9.2 | Python 3.7.9   |
+| Miniconda3-py38_4.9.2 | Python 3.8.5   |
+| Miniconda3-py39_4.9.2 | Python 3.9.1   |
 | Miniconda2-py27_4.8.3 | Python 2.7.18  |
 | Miniconda3-py37_4.8.3 | Python 3.7.7   |
 | Miniconda3-py38_4.8.3 | Python 3.8.3   |
